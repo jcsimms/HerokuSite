@@ -2,6 +2,13 @@ body{
 background-color: green
 }
 
+#mat{
+    background-color: blanchedalmond;
+    width: 900px;
+    height: 700px;
+    margin: 20px auto;
+}
+
 #Title{
 	border: 4px blue solid;
 	text-align: center;
