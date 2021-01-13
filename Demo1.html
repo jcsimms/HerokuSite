@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-<script type="text/javascript" src="//cdn.evgnet.com/beacon/interactionstudio/simms/scripts/evergage.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/style.css";>
+    <title>Page Title</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    <script type="text/javascript" src="//cdn.evgnet.com/beacon/interactionstudio/simms/scripts/evergage.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css";>
+    <style class="main_style">
+.layout-canvas-g { background-color: #FFFFFF; border: none; box-sizing: border-box; padding: 0px; width: 100%; }
+.layout-canvas-g > .header, .layout-canvas-g > .section, .layout-canvas-g > .footer { position: relative; overflow: hidden; width: 100%; overflow-wrap: break-word; }
+.layout-canvas-g > .section { margin: 10px 0px; }
+.layout-canvas-g > .section > .columns { box-sizing: border-box; overflow-wrap: break-word; }
+body { color: #000000; font-family: Arial; font-size: 12px; margin: 0px auto; max-width: 1280px; }
+@media only screen and (max-width: 480px) {
+  .mobile-hidden { display: none !important; }
+  .responsive-td { width: 100% !important; display: block !important; padding: 0px !important; }
+}
+.layout-canvas-g > .section > .columns { width: 100%; }
+</style>
 
 </head>
 <body>
@@ -12,6 +26,13 @@
       <h1>Titttle</h1>
    <div id="Options">
      <h1>We'll Call You</h1>
+       <div class="layout layout-canvas-g">
+ <div class="section">
+  <div class="columns col1">
+   <div data-type="slot" data-key="col1"></div>
+  </div>
+ </div>
+</div>
 
 
 </body>
